@@ -17,7 +17,7 @@ import {
   SiMongodb,
   SiPostgresql,
   SiKubernetes,
-  SiGo,
+  SiGooglecloud,
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -40,7 +40,6 @@ const Skills = () => {
       skills: [
         { name: 'Python', icon: FaPython, color: '#3776AB' },
         { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
-        { name: 'Go', icon: SiGo, color: '#00ADD8' },
         { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
         { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
       ],
@@ -50,6 +49,7 @@ const Skills = () => {
       skills: [
         { name: 'Docker', icon: FaDocker, color: '#2496ED' },
         { name: 'Kubernetes', icon: SiKubernetes, color: '#326CE5' },
+        { name: 'Google Cloud', icon: SiGooglecloud, color: '#4285F4' },
         { name: 'AWS', icon: FaAws, color: '#FF9900' },
         { name: 'Git', icon: FaGitAlt, color: '#F05032' },
       ],
