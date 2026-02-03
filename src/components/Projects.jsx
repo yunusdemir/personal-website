@@ -9,36 +9,36 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Brink Home Assistant Integration',
       description:
-        'A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: '#',
-      demo: '#',
+        'Home Assistant integration for Brink ventilation systems featuring OAuth2 authentication and full API v1.1 support for smart home automation.',
+      tech: ['Python', 'Home Assistant', 'OAuth2', 'API Integration'],
+      github: 'https://github.com/yunusdemir/brink-home-assistant-v1.1',
+      demo: 'https://github.com/yunusdemir/brink-home-assistant-v1.1',
     },
     {
-      title: 'Task Management App',
+      title: 'Hestia',
       description:
-        'Collaborative task management application with real-time updates, drag-and-drop interface, and team collaboration features.',
-      tech: ['React', 'Firebase', 'Tailwind CSS', 'Framer Motion'],
-      github: '#',
-      demo: '#',
+        'Automated real estate scraper that monitors rental listing websites for new properties, helping users find their next home efficiently.',
+      tech: ['Python', 'Web Scraping', 'Automation'],
+      github: 'https://github.com/yunusdemir/hestia',
+      demo: 'https://github.com/yunusdemir/hestia',
     },
     {
-      title: 'Analytics Dashboard',
+      title: 'Shopify Plugin Administration',
       description:
-        'Real-time analytics dashboard with interactive charts, data visualization, and customizable widgets.',
-      tech: ['React', 'TypeScript', 'Chart.js', 'Express'],
-      github: '#',
-      demo: '#',
+        'Administration tool for managing Shopify plugins with a comprehensive dashboard built using Django and modern Python best practices.',
+      tech: ['Python', 'Django', 'HTML', 'Docker'],
+      github: 'https://github.com/yunusdemir/shopify-plugin-administration',
+      demo: 'https://github.com/yunusdemir/shopify-plugin-administration',
     },
     {
-      title: 'Social Media Platform',
+      title: 'Bachelor Thesis Research',
       description:
-        'Feature-rich social media platform with posts, comments, likes, and real-time messaging capabilities.',
-      tech: ['Next.js', 'PostgreSQL', 'Socket.io', 'AWS'],
-      github: '#',
-      demo: '#',
+        'Research project analyzing the Dutch Freedom of Information Act (Wob-verzoek) using data science and machine learning techniques.',
+      tech: ['Python', 'Jupyter', 'Data Analysis', 'LaTeX'],
+      github: 'https://github.com/yunusdemir/Scriptie',
+      demo: 'https://github.com/yunusdemir/Scriptie',
     },
   ]
 

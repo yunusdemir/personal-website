@@ -18,7 +18,7 @@ const Footer = () => {
     {
       name: 'Email',
       icon: FiMail,
-      url: 'mailto:your.email@example.com',
+      url: 'mailto:website@ydmr.nl',
     },
   ]
 

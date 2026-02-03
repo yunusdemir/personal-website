@@ -69,10 +69,10 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-6 text-gradient">Quick Facts</h3>
               <div className="space-y-4">
                 {[
-                  { label: 'Location', value: 'Available Worldwide' },
+                  { label: 'Location', value: 'Netherlands' },
                   { label: 'Experience', value: 'Full-Stack Development' },
-                  { label: 'Focus', value: 'Modern Web Technologies' },
-                  { label: 'Interests', value: 'UI/UX, Performance, Architecture' },
+                  { label: 'Focus', value: 'Cloud & Automation' },
+                  { label: 'Interests', value: 'Smart Home, DevOps, Data Science' },
                 ].map((fact, index) => (
                   <motion.div
                     key={index}

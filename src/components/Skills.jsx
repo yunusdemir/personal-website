@@ -16,6 +16,8 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiPostgresql,
+  SiKubernetes,
+  SiGo,
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -27,7 +29,7 @@ const Skills = () => {
       title: 'Frontend',
       skills: [
         { name: 'React', icon: FaReact, color: '#61DAFB' },
-        { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
+        { name: 'Next.js', icon: SiNextdotjs, color: '#FFFFFF' },
         { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
         { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
         { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
@@ -36,16 +38,18 @@ const Skills = () => {
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
         { name: 'Python', icon: FaPython, color: '#3776AB' },
-        { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
+        { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
+        { name: 'Go', icon: SiGo, color: '#00ADD8' },
         { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+        { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
       ],
     },
     {
-      title: 'DevOps & Tools',
+      title: 'DevOps & Cloud',
       skills: [
         { name: 'Docker', icon: FaDocker, color: '#2496ED' },
+        { name: 'Kubernetes', icon: SiKubernetes, color: '#326CE5' },
         { name: 'AWS', icon: FaAws, color: '#FF9900' },
         { name: 'Git', icon: FaGitAlt, color: '#F05032' },
       ],
@@ -136,8 +140,8 @@ const Skills = () => {
             <h3 className="text-2xl font-bold mb-4 text-gradient">Always Learning</h3>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
               I'm constantly exploring new technologies and methodologies to stay at the
-              forefront of web development. Currently diving deeper into AI integration,
-              Web3, and advanced performance optimization techniques.
+              forefront of development. Currently working on smart home integrations,
+              cloud-native applications, and building automation tools that solve real-world problems.
             </p>
           </motion.div>
         </motion.div>

@@ -65,7 +65,7 @@ const Navigation = ({ scrollY }) => {
               <FiLinkedin size={20} />
             </motion.a>
             <motion.a
-              href="mailto:your.email@example.com"
+              href="mailto:website@ydmr.nl"
               className="text-slate-400 hover:text-white transition-colors"
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
